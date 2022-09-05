@@ -1,88 +1,95 @@
-*{
+* {
     margin: 0;
     padding: 0;
 }
-.yellow{
+
+.yellow {
     background-image: url("https://hanoifc.com.vn/public/client/images/bg-head.jpg");
     height: 50px;
 
 }
-.box{
-display: flex;
-width: 100%;
-height: 75px;
-background-color: rgb(205, 3, 107);
-justify-content: space-between;
-box-shadow: 0px 0px 10px rgba(0, 0, 0,0.5) inset;
+
+.box {
+    display: flex;
+    width: 100%;
+    height: 75px;
+    background-color: rgb(205, 3, 107);
+    justify-content: space-between;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5) inset;
 }
-h6{
+
+h6 {
     font-size: 25px;
     color: aliceblue;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
-.anh1{
+
+.anh1 {
     margin-left: 35px;
     margin-right: 20px;
     width: 55px;
     height: 55px;
 }
-.logoname{
+
+.logoname {
     display: flex;
     align-items: center;
 
 }
-.cacmuc{
-    align-items: center ;
+
+.cacmuc {
+    align-items: center;
     display: flex;
     list-style: none;
     margin-right: 60px;
-    
+
 }
-.namemuc{
+
+.namemuc {
     margin: 30px;
     font-size: 20px;
     color: aliceblue;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 
 }
-.box2{
 
- 
+.box2 {
     width: 100%;
     height: 65px;
     background-color: black;
     display: flex;
     justify-content: center;
     align-items: center;
-    
+
 }
-.anh2{
-    height:35px;
+
+.anh2 {
+    height: 35px;
     margin: 30px;
 }
-#slideshow {
-    overflow: hidden;
-    height: 510px;
-    width: 728px;
-    margin: 0 auto;
-  }
- .slide-wrapper {
-    width: 2912px;
-    -webkit-animation: slide 14s ease infinite;
-  }
- .slide {
-    float: left;
-    height: 300px;
-   
-  }
- @-webkit-keyframes slide {
-    20% {margin-left: 0px;}
-    30% {margin-left: -728px;}
-    50% {margin-left: -728px;}
-    60% {margin-left: -1456px;}
-    80% {margin-left: -1456px;}
-  }
 
-  .box3con{
-    height: 10px;
-  }
+.box3 {
+    display: flex;
+
+}
+
+.box3con {
+    padding-right: 30px;
+    width: 50%;
+    z-index: 99999999999999;
+}
+
+#slideshow {
+    width: 50%;
+}
+
+#slideshow img {
+    width: 100%;
+    height: 100vh;
+    object-fit: cover;
+}
+
+.box3con img {
+    display: block;
+    width: 100%;
+}
